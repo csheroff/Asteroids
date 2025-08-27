@@ -14,6 +14,8 @@ def main():
                 return
         
         player.update(dt)
+
+        player.move(dt)
         
         screen.fill("black")
         player.draw(screen)
